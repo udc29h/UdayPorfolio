@@ -1,6 +1,6 @@
 import urlShortener from "../assets/images/portfolio/urlShortener.png";
 import Edgy from "../assets/images/portfolio/Edgy.jpeg";
-import RestCountries from "../assets/images/portfolio/RestCountries.png";
+import RestCountries from "../assets/images/portfolio/RestCountries.jpeg";
 import Bankist from "../assets/images/portfolio/Bankist.jpeg";
 
 const projectsData = [
