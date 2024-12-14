@@ -14,6 +14,7 @@ const ProjectsPreview = () => {
             className="project-img"
           />
           <section className="project-description">
+            <h1>{project.name}</h1>
             <p className="white-text p-tag">{project.description}</p>
             <section className="project-meta-stack ">
               {project.stack.map((stackName, index) => (

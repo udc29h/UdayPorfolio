@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import ScrollToTop from "../../helpers/ScrollToTop";
+import Resume from "../../assets/documents/udayResume.pdf";
 
 const activeNavLink = ({ isActive }) =>
   "gray-text nav-link" + (isActive ? " active" : "");
@@ -49,6 +50,18 @@ const NavigationMenu = (props) => {
       >
         Contact
       </NavLink>
+      <NavLink
+          to={Resume}
+          className={activeNavLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={() => {
+            props.closeMenu();
+          }}
+        >
+         myResume
+      </NavLink>
+
     </section>
   );
 };
