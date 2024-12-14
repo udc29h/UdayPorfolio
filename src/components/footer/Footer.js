@@ -6,7 +6,7 @@ const Footer = () => {
         target="_blank"
         rel="noreferrer"
       >
-        Designed & Built by Uday &copy;2023
+        Designed & Built by Uday &copy;2025
       </a>
     </article>
   );
