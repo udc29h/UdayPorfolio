@@ -10,20 +10,6 @@ const experienceData = [
       `Solve the problems of students`,
       `Give the solution in proper format`
     ],
-  },
-  {
-    id: 2,
-    jobtitle: "Social Media Strategist",
-    companyname: "NexaReach Marketing Agency",
-    worktype: "Full-time",
-    duration: "Sep 2020 - Jan 2021",
-    location: "Tbilisi, Georgia",
-    responsibility: [
-      `Devised and executed dynamic social media strategies across platforms, resulting in a 25% growth in follower base and a 30% boost in user engagement.`,
-      `Created engaging and shareable content, leveraging both visual and written components to enhance brand storytelling.`,
-      `Collaborated with clients to understand their unique voice and objectives, tailoring social media plans to align with their brand identity.`,
-      `Monitored social media trends and emerging platforms, recommending and implementing new strategies to keep clients ahead of the curve.`,
-    ],
   }
 ];
 
