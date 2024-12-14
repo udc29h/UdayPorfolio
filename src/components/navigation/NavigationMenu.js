@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import ScrollToTop from "../../helpers/ScrollToTop";
+import DownloadResume from "../../routes/about/DownloadResume";
 
 const activeNavLink = ({ isActive }) =>
   "gray-text nav-link" + (isActive ? " active" : "");
@@ -49,6 +50,9 @@ const NavigationMenu = (props) => {
       >
         Contact
       </NavLink>
+
+      <DownloadResume/>
+
     </section>
   );
 };

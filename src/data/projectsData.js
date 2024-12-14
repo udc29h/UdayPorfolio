@@ -15,10 +15,3 @@ const projectsData = [
 ];
 
 export { projectsData };
-
-
-import RestCountries from "../assets/images/portfolio/RestCountries.jpeg";
-
-
-
-export { projectsData };
