@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can add any custom CSS here if needed */
+.portfolio-grid {
+  @apply grid grid-cols-1 gap-8 max-w-full relative;
+}
+
+.project {
+  @apply grid grid-cols-1 md:grid-cols-[60%_1fr] lg:grid-cols-2 gap-4 py-8 relative;
+}
+
+.project-img {
+  @apply max-w-full object-contain max-h-full transition-all duration-400 opacity-70;
+}
+
+.project-description {
+  @apply flex flex-col gap-4 pt-8;
+}
+
+.project-title {
+  @apply text-4xl text-white font-title text-center tracking-wide opacity-70 hover:opacity-40 transition-opacity duration-300;
+}
+
+.detailed-project-description {
+  @apply text-xl text-white opacity-70;
+}
+
+.project-meta-stack {
+  @apply flex flex-row flex-wrap gap-4;
+}
+
+.project-meta-stack p {
+  @apply text-base font-title bg-black/5 text-white backdrop-blur-sm rounded-md px-2 py-1 opacity-70 hover:opacity-40 transition-opacity duration-300 cursor-pointer;
+}
+
+.project-links {
+  @apply flex flex-row gap-8 text-2xl underline;
+}
+
+.live-project-icon, .github-source-icon {
+  @apply w-6 h-6 invert opacity-40 hover:opacity-70 transition-opacity duration-300;
+}
