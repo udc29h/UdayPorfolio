@@ -3,6 +3,7 @@ import RestCountries from "../assets/images/portfolio/RestCountries.jpeg";
 import movieList from "../assets/images/portfolio/movielist.jpg"
 import tabldo from "../assets/images/portfolio/tabldo.jpg"
 import chloro from "../assets/images/portfolio/chloro.jpg"
+import youtube from "../assets/images/portfolio/youtube.png"
 
 const projectsData = [
   {
@@ -15,13 +16,22 @@ const projectsData = [
     description : "Simplified the process of finding the best movies to watch",
   },
   {
+    id: "contentSage-Youtube Extension",
+    img: youtube,
+    name: "contentSage-Extension",
+    stack : ["< JavaScript />" , "< NodeJs />" , "< ExpressJs />", "< MongoDB />" , "< CSS3 />" , "< HTML5 />"],
+    src: "https://contentsageserver.onrender.com/",
+    source : "https://github.com/udc29h/newTube",
+    description : "Based on voting of users, the extension will categorize the youtube vedios age wise and user will be allowed to view the vedios only of there age range only",
+  },
+  {
     id: "frontend skill",
     img: chloro,
     name: "Chloro",
     stack : ["< Nextjs />" , "< TailwindCSS />"],
     src: "https://chloro-sepia.vercel.app/",
     source: "https://github.com/udc29h/chloro",
-    description: "showcasing my frontend skill",
+    description: "showcasing my frontend skill dfksdfsfdssf sdfkseoi sdfksd eiodiweio dfke dfiew kd wo sdweio dfoe  sdkjweo  dfeio ie dkfe  sdfke ",
   },
   {
     id : "Tabldo",
