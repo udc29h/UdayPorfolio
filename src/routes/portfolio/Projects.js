@@ -1,5 +1,5 @@
-import ExternalLink from "../../assets/images/project-external.png";
-import GithubRepo from "../../assets/images/project-source.png";
+import ExternalLink from "../../assets/images/project-live.svg";
+import GithubRepo from "../../assets/images/project-source.svg";
 import { projectsData } from "../../data/projectsData";
 
 const Projects = () => {
@@ -23,10 +23,10 @@ const Projects = () => {
             </section>
             <section className="project-links">
               <a href={project.src} target="_blank" rel="noreferrer">
-                <img src={ExternalLink} alt="Link to project" />
+                <img src={ExternalLink} alt="Link to project" className="live-project-icon" />
               </a>
               <a href={project.source} target="_blank" rel="noreferrer">
-                <img src={GithubRepo} alt="Link to Github" />
+                <img src={GithubRepo} alt="Link to Github" className="github-source-icon" />
               </a>
             </section>
           </section>
